@@ -1,9 +1,21 @@
-<html>
+<html lang = "en">
+  <head>
+      <title>VinGrab</title>
+  </head>
+
   <body>
     <h1>VinGrab</h1>
+    <h2>Making documentation easier</h2>
     <script src="popup.js"></script>
-    <ul>
-        <li>DeskGrab</li>
-    </ul>
+  <hr>
+    <button id="deskGrab">DeskGrab</button>
+    <script>
+      const deskGrab = document.getElementById("deskGrab");
+      deskGrab.addEventListener("click", function() {
+      alert("DeskGrab clicked!");
+      });
+    </script>
+
+    
   </body>
 </html>
